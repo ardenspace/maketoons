@@ -48,11 +48,11 @@ class SaveOutputTests(unittest.TestCase):
         for kwargs in ({"panels": 0}, {"panel": 5}, {"revision": 0}, {"details": []}):
             with self.assertRaises(ValueError):
                 self.save(**kwargs)
-        self.assertFalse((self.project / ".thesameimgs").exists())
+        self.assertFalse((self.project / "makeimgs").exists())
 
     def test_title_cannot_escape_output_folder(self):
         result = module.save_output(self.source, self.project, "../../a:b\\c?", now=self.now)
-        self.assertEqual(Path(result["image"]).parent, self.project / ".thesameimgs/outputs")
+        self.assertEqual(Path(result["image"]).parent, self.project / "makeimgs/outputs")
 
     def test_actual_format_determines_extension(self):
         source = self.project / "wrong.jpg"

@@ -1,0 +1,9 @@
+{
+  "family": "교보 손글씨 2019",
+  "style": "Regular",
+  "file": "assets/fonts/KyoboHandwriting2019.otf",
+  "format": "otf",
+  "usage": "dialogue",
+  "method": "typeset-after-generation",
+  "sha256": "a45b6743b0947f4bb854fc161ef0a1ed550581e41d6e92b490dbedae65a79ffd"
+}

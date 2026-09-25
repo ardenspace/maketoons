@@ -56,7 +56,7 @@ def save_output(source, project, title, panels=4, layout="2x2",
         base += f"_{panel:02d}컷"
     if revision is not None:
         base += f"_수정{revision:02d}"
-    output_dir = project / ".thesameimgs" / "outputs"
+    output_dir = project / "makeimgs" / "outputs"
     # Avoid a redirected output folder escaping the user's selected project.
     if project not in output_dir.resolve().parents:
         raise ValueError("출력 폴더가 작업 폴더 밖을 가리킵니다.")
