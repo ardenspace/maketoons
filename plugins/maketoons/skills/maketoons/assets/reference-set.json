@@ -1,0 +1,10 @@
+{
+  "id": "gangbyul-v1",
+  "character": "강별이",
+  "images": [
+    {"file": "assets/gangbyul-v1/gangbyul.png", "role": "외형·비율·정면/측면/후면", "source_number": 1},
+    {"file": "assets/gangbyul-v1/gangbyul2.png", "role": "노란 별 장식·표정·컬러 캐릭터", "source_number": 2},
+    {"file": "assets/gangbyul-v1/gangbyul4.png", "role": "강별상회 배경·팔레트·채색 질감", "source_number": 4}
+  ],
+  "excluded_source_numbers": [3]
+}

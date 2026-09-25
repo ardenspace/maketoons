@@ -1,0 +1,4 @@
+interface:
+  display_name: "MakeToons · 강별이 툰"
+  short_description: "아이디어로 콘티를 짜고 기준 이미지로 강별이 SNS 툰을 제작합니다"
+  default_prompt: "$maketoons 강별이로 가벼운 일상 4컷 툰의 콘티를 제안해 줘."

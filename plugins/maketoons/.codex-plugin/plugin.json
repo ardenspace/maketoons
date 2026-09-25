@@ -1,0 +1,19 @@
+{
+  "name": "maketoons",
+  "version": "0.1.0",
+  "description": "강별이 기준 이미지로 콘티를 함께 짜고 SNS 툰을 생성·수정·저장합니다.",
+  "author": {
+    "name": "ardenspace"
+  },
+  "skills": "./skills/",
+  "repository": "https://github.com/ardenspace/maketoons",
+  "interface": {
+    "displayName": "Maketoons",
+    "shortDescription": "아이디어부터 콘티와 강별이 툰까지",
+    "longDescription": "강별이 기준 이미지 1·2·4번을 포함합니다. 콘티를 함께 짜고, 한 장 또는 개별 컷으로 생성합니다. 로컬에서는 한국 시간 파일명으로 .thesameimgs/outputs에 저장합니다.",
+    "developerName": "ardenspace",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["강별이로 월요일 출근에 대한 4컷 콘티를 짜 줘.", "대사 없는 강별이 툰을 2×2 한 장으로 바로 만들어 줘.", "이 툰의 마지막 컷만 수정해 줘."]
+  }
+}
